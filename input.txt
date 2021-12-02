@@ -1,0 +1,73 @@
+.
+BIOQUIMICA
+b
+----------------------------------------------------------------
+ANALISI D'ORINA
+b----------------
+b
+.
+ESTUDI ELEMENTS FORMES
+blanco
+blanc
+Unitats Inter.Ref Resultat qualitatiu
+blanc
+Uri-Leucòcits 17.6 cel/μL 0 - 30 -
+blanc
+Uri-Eritròcits 18 cel/μL 0 - 25 -
+blanc
+Uri-Eritròcits dismòrfics Recompte d'eritròcits
+insuficient per a fer la
+diferenciació morfològica.
+blanc
+Uri-Cèl·lules epitelials 0 cel/μL
+blanc
+Uri-Cilindres hialins 0.46 cil/μL 0 - 5
+blanc
+Uri-Bacteris 183 bact/μL 0 - 100 Aillats
+blanc
+Uri-Llevats Negatiu
+blanc
+.
+SUBSTRATS
+blanco
+Uri-Creatinini orina recent
+.
+35 mg/dL
+b b
+.
+PROTEÏNES
+blanco
+Uri-Proteïna orina recent
+.
+6 mg/dL
+b b
+Uri-Proteïna / creatinina; quocient
+.
+173.4 mg/g crea 0 - 200
+b b
+Uri-Albúmina orina recent
+.
+­ 24.4 mg/L 0 - 20
+b b
+Uri-Albúmina / Creatinini orina recent
+.
+­ 71 mg/g crea 0 - 30
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara, Felipe Fernández, Maria Pilar, Ruiz Altarejos, Joaquín
+b b b
+Incidències de mostra revisades i validades per: Facultatiu responsable de l'àrea preanalítica
+...
+Barcelona, dimarts, 9 / de novembre / 2021
+Laboratoris Clínics Vall d'Hebron
+________________________________________________________________________________________________
+b
+Pacient: BURGUES CANELA, MA BELIA Petició: 111248287
+Nascut el: 09/03/1948 Sexe: F Sol·licitant: LOPEZ MARTINEZ,MARINA
+NHC: 14192178 Centre: HUVH GENERAL
+T.Sanitària: BUCA1480309001 Servei: NEFROLOGIA
+Núm Seg Soc: 250048433167 Data recepció: 08/11/21 10:55:45
+Numero Host: 0071086900 Data emisió: 09/11/21 00:10:36
+Data tancament: 08/11/21 15:05:38
+________________________________________________________________________________________________
+Pàgina 1/1
