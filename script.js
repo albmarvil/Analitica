@@ -68,12 +68,8 @@ var ALLOWED_PARAMETER_UNITS = [
 ];
 
 
-function processOrina()
-{
-    process("ANALISI D'ORINA".normalize());
-}
 
-
+var PARSED_DATA = null;
 
 function process(startLine)
 {
@@ -89,6 +85,7 @@ function process(startLine)
     var outputText = "";
     var currentSection = null;
     var processedSections = [];
+    var EOFProcessed = false;
 
 
 
@@ -120,15 +117,17 @@ function process(startLine)
                 currentSection.parameters.push(parameter);
             }
         }
-
-        //check if it is end of file
-        //else
-            //try to identify a section
-                //close old section open new
-            //identify new parameter
-                //construct parameter with all the required lines
-                //jump through the required lines for next iteration
+        else
+        {
+            EOFProcessed = true;
+            processedSections.push(currentSection);
+        }
     }
+
+    if(!EOFProcessed)
+        processedSections.push(currentSection);
+
+    outputText = processedSections.toString();
 
     output.value = outputText;
 }
@@ -146,12 +145,7 @@ function concatStringArray(array)
 
 function isEndOfFile(line)
 {
-    EOF.forEach(element => {
-        if(line.includes(element))
-            return true;
-    });
-
-    return false;
+   return arrayElementIncludedInString(EOF, line);
 }
 
 function isLineASection(line)
@@ -162,11 +156,7 @@ function isLineASection(line)
     }
     else
     {
-        ALLOWED_SECTIONS.forEach(element => {
-            if(line.normalize().includes(element))
-                return true
-        });
-        return false;
+        return arrayElementIncludedInString(ALLOWED_SECTIONS, line);
     }
 }
 
@@ -179,11 +169,7 @@ function isLineAParameter(line)
     }
     else
     {
-        ALLOWED_PARAMETERS.forEach(element => {
-            if(normLine.includes(element))
-                return true;
-        });
-        return false;
+        return arrayElementIncludedInString(ALLOWED_PARAMETERS, normLine);
     }
 }
 
@@ -196,12 +182,22 @@ function isLineAParameterSeparator(line)
     }
     else
     {
-        PARAMETER_SEPARATORS.forEach(element => {
-            if(normLine.includes(element))
-                return true;
-        });
-        return false;
+        return arrayElementIncludedInString(PARAMETER_SEPARATORS, normLine);
     }
+}
+
+
+function arrayElementIncludedInString(array, string)
+{   
+    for(var i = 0; i < array.length; ++i)
+    {
+        var element = array[i];
+
+        if(string.includes(element))
+            return true;
+    }
+
+    return false;
 }
 
 
@@ -256,13 +252,13 @@ class Parameter
         var result = concatStringArray(parameterLines);
 
         //extract name and remove it from processing string
-        var result = this.extractNameFromLine(line);
+        result = this.extractNameFromLine(result);
 
         //next find the unit. If it doesn't have units we are handling a qualitative parameter
-        result = this.extractUnitFromLine(result);
+        this.extractUnitFromLine(result);
 
         //get the value, either nominal or qualitative
-        result = this.extractValueFromLine(result);
+        this.extractValueFromLine(result);
 
         this.show = true;
 
@@ -278,15 +274,13 @@ class Parameter
         {
             this.value = normLine; //qualitative value is whatever is written
             this.hasValue = true;
-            return normLine;
         }
         else
         {
             //if it has unit, split string by the unit. First result is the value, the rest is discarded
             var splt = normLine.split(this.unit);
-            this.value = splt[0];
+            this.value = splt[0].trim();
             this.hasValue = true;
-            return "";
         }
     }
 
@@ -298,25 +292,30 @@ class Parameter
         {
             this.unit = ALLOWED_PARAMETER_UNITS[ALLOWED_PARAMETER_UNITS.indexOf(normLine)];
             this.hasUnit = true;
-            return normLine.replace(this.unit, "");
+
+            return true;
         }
         else{
-            ALLOWED_PARAMETER_UNITS.forEach(element => {
-                
+
+            for(var i = 0; i < ALLOWED_PARAMETER_UNITS.length; ++i)
+            {
+                var element = ALLOWED_PARAMETER_UNITS[i];
+
                 if(normLine.includes(element))
                 {
                     this.unit = element;
                     this.hasUnit = true;
-                    return normLine.replace(this.unit, "");
+
+                    return true;
                 }
-            });
+            }
         }
 
         //if we are here it means the parameter data doesn't have units. it is a qualitative parameter
         this.unit = "";
         this.hasUnit = false;
 
-        return normLine;
+        return false;
     }
 
     extractNameFromLine(line)
@@ -332,14 +331,18 @@ class Parameter
         }
         else
         {
-            ALLOWED_PARAMETERS.forEach(element => {
+
+            for(var i = 0; i < ALLOWED_PARAMETERS.length; ++i)
+            {
+                var element = ALLOWED_PARAMETERS[i];
+
                 if(normLine.includes(element))
                 {
                     this.name = element;
                     this.hasName = true;
                     return normLine.replace(element, "");
                 }
-            });
+            }
         }
 
         this.name = false;
@@ -370,7 +373,19 @@ class Section
 
     toString()
     {
-        return this.name.toUpperCase();
+        var result = "\n";
+
+        result = this.name.toUpperCase();
+
+        for(var i  = 0; i < this.parameters.length; ++i)
+        {
+            var param = this.parameters[i];
+
+            result += " " + param.toString();
+        }
+
+
+        return result;
     }
 
     extractNameFromLine(line)
@@ -382,12 +397,14 @@ class Section
         }
         else
         {
-            ALLOWED_SECTIONS.forEach(element => {
+            for(var i = 0; i < ALLOWED_SECTIONS.length; ++i)
+            {
+                var element = ALLOWED_SECTIONS[i];
                 if(normLine.includes(element))
                 {
                     return element;
                 }
-            });
+            }
 
             return "NOT VALID"
         }
