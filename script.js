@@ -9,8 +9,8 @@ var ALLOWED_SECTIONS = [
 
 var ALLOWED_PARAMETERS = [
     "Uri-Leucòcits".normalize(),
-    "Uri-Eritròcits".normalize(),
     "Uri-Eritròcits dismòrfics".normalize(),
+    "Uri-Eritròcits".normalize(),
     "Uri-Cèl·lules epitelials".normalize(),
     "Uri-Cilindres hialins".normalize(),
     "Uri-Bacteris".normalize(),
@@ -75,14 +75,13 @@ function process(startLine)
 {
     
     var input = document.getElementById("input");
-    var output = document.getElementById("output");
+    
 
     var inputText = input.value.normalize();
 
     var splitted = inputText.split("\n");
     
 
-    var outputText = "";
     var currentSection = null;
     var processedSections = [];
     var EOFProcessed = false;
@@ -127,11 +126,79 @@ function process(startLine)
     if(!EOFProcessed)
         processedSections.push(currentSection);
 
-    outputText = processedSections.toString();
+    PARSED_DATA = processedSections;
 
-    output.value = outputText;
+    
+    BuildOutput();
+
+    BuildFilterSection();
+
 }
 
+
+function filterChange(object)
+{
+    // console.log(object.id + " /// " + object.checked);
+    loop:
+    for(var i = 0; i < PARSED_DATA.length; ++i)
+    {
+        var section = PARSED_DATA[i];
+        
+        for(var j = 0; j < section.parameters.length; ++j)
+        {
+            var param = section.parameters[j];
+            
+            if(param.name === object.id)
+            {
+                // console.log("Found");
+                param.show = object.checked;
+                break loop;
+            }
+        }
+    }
+    
+    // var value = object.checked;
+    // object.checked = !value;
+    BuildOutput();
+    // BuildFilterSection();
+}
+
+
+function BuildFilterSection()
+{
+    //Build the filter HTML
+
+    var filterDiv = document.getElementById("FilterSection");
+
+    var innerHTML = "";
+
+    for(var i = 0; i < PARSED_DATA.length; ++i)
+    {
+        innerHTML += PARSED_DATA[i].getHTML();
+    }
+
+    filterDiv.innerHTML = innerHTML;
+}
+
+function BuildOutput()
+{
+    //Build final text
+    var output = document.getElementById("output");
+    output.value = getProcessedText(PARSED_DATA);
+}
+
+
+function getProcessedText(sectionArray)
+{
+    var result = "";
+
+    for(var i = 0; i < sectionArray.length; ++i)
+    {
+        result += sectionArray[i].toString()
+    }
+
+    return result;
+}
 
 function concatStringArray(array)
 {
@@ -355,6 +422,12 @@ class Parameter
         return this.name + " " + this.value + " " + this.unit+"; "; 
     }
 
+    getHTML()
+    {   
+        var checked = this.show ? "checked" : "";
+        return "<input type='checkbox' id='"+this.name+"' onchange='filterChange(this)' "+checked+"><label for='"+this.name+"'>"+this.name+"</label><br></br>";
+    }
+
 }
 
 class Section
@@ -373,17 +446,35 @@ class Section
 
     toString()
     {
-        var result = "\n";
+        var result = "";//"\n";
+        var show = false;
 
-        result = this.name.toUpperCase();
+        result = this.name.toUpperCase() + ": ";
 
         for(var i  = 0; i < this.parameters.length; ++i)
         {
             var param = this.parameters[i];
 
-            result += " " + param.toString();
+            show = show || param.show;
+            
+            if(param.show)
+                result += " " + param.toString();
         }
 
+        result += "\n";
+
+        return show? result : "";
+    }
+
+    getHTML()
+    {
+        var result = "<h2 id='"+this.name+"'>'"+this.name+"'</h2>";
+
+
+        for(var i=0; i<this.parameters.length; ++i)
+        {
+            result += this.parameters[i].getHTML();
+        }
 
         return result;
     }
