@@ -1,0 +1,3 @@
+PROTEINOGRAMA: Comentari: Component homogeni <0,35 g/dL en GAMMA
+La imprecisió de la determinació d'un component monoclonal <0.35 g/dL és
+superior als límits acceptats per la qualitat analítica; Gamma 0.4 g/dL (Bajo); Alfa 1 0.21 g/dL (Alto)

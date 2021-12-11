@@ -1,0 +1,267 @@
+.
+HEMATOLOGIA
+b
+----------------------------------------------------------------
+HEMOGRAMA
+b----------------
+b
+Hematies .
+¯ 3.00 x10E12/L 4.00 - 5.20
+b b
+Hemoglobina .
+¯ 9.6 g/dL 12.0 - 15.0
+Hematòcrit .
+¯ 26.9 % 36.0 - 45.0
+Volum corpuscular mig (VCM) . 89.7 fL 80.0 - 98.0
+Hemoglobina corpuscular mitja (HCM) . 32.0 pg 27.0 - 33.5
+Concentració HGB Corpuscular mitja . 35.70 g/dL 31.00 - 36.00
+Ample Distribució Eritrocits (ADE) . 12.1 % 11.0 - 15.0
+b b
+San-Eritroblastes, f . 0.0 % 0.0 - 2.0
+San-Eritroblastes, c . 0.00 10E9/L
+b b
+Leucòcits . 6.05 x10E9/L 4.00 - 11.00
+b b
+Neutròfils % .
+­ 82.3 % 40.0 - 80.0
+Limfòcits % .
+¯ 13.9 % 20.0 - 50.0
+Monòcits % . 3.8 % 2.0 - 11.0
+Eosinòfils % . 0.0 % 0.0 - 5.0
+Basòfils % . 0.0 % 0.0 - 2.0
+b b
+Neutròfils . 5.0 x10E9/L 2.0 - 7.0
+Limfòcits .
+¯ 0.8 x10E9/L 1.2 - 3.5
+Monòcits . 0.2 x10E9/L 0.1 - 1.0
+Eosinòfils . 0.0 x10E9/L 0.0 - 0.5
+Basòfils . 0.0 x10E9/L 0.0 - 0.2
+b b
+Plaquetes . 153 x10E9/L 140 - 400
+b b
+Volum plaquetari mig . 12.1 fL 9.5 - 12.0
+b b b
+b Resultats revisats i validats per: Marin Niebla, Ana
+b b b
+----------------------------------------------------------------
+HEMOSTÀSIA BÀSICA I D'URGÈNCIES
+b----------------
+b
+Pla-Temps de Protrombina (ràtio) . 0.88 ràtio 0.70 - 1.30
+b b
+Pla-Temps de Protrombina (%) . >120 % 65 - 120
+b b
+b b
+Pla-Temps de Protrombina (INR) . 0.88 0.70 - 1.30
+b b
+Pla-Temps de Protrombina (s) . 11 seg 8.8 - 16.3
+Rang de referència d'aquest paràmetre s'ha actualitzat
+per entrada en vigor d'un nou lot de reactiu
+b b
+Pla-TTPA (ràtio) . 0.91 ràtio 0.80 - 1.30
+b b
+Pla-TTPA (s) . 27.4 seg 24.2 - 39.3
+b b
+Pla-Fibrinogen derivat . 4.45 g/L 2.39 - 6.1
+b b
+Laboratoris Clínics Vall d'Hebron
+________________________________________________________________________________________________
+b
+
+________________________________________________________________________________________________
+Pàgina 1/4
+b b b
+b Resultats revisats i validats per: Marín Niebla, Ana, Cortina Giner, Vicente
+b b b
+.
+BIOQUIMICA
+b
+----------------------------------------------------------------
+SUBSTRATS
+b----------------
+b
+Srm-Glucosa .
+­ 155 mg/dL 74 - 110
+b b
+Srm-Urea .
+­­ 166 mg/dL 17 - 43
+b b
+Srm-Creatinini .
+­ 2.18 mg/dL 0.51 - 0.95
+b b
+Pac-Filtrat glomerular (estimació segons CKD-EPI) . 22 ml/min/1,73 m2
+b m
+En persones de raça negra s'ha de multiplicar el resultat pel factor: 1,159
+n
+El valor estimat de FG en majors de 18 anys (si persisteix durant 3 mesos o més) és indicador de:
+m
+Estadi F. Glomerular
+(mL/min/1,73m2)
+1 >=90 Filtrat Glomerular normal o augmentat
+2 60-89 Lesió renal amb disminució lleu del filtrat glomerular
+3a 45-59 Disminució lleugera-moderada del filtrat glomerular
+3b 30-44 Disminució moderada del filtrat glomerular
+4 15-29 Disminució severa del filtrat glomerular
+5 <15 Fallida renal o diàlisi
+m
+Es recomana mesurar l'aclariment de creatinina en orina de 24H en pacients inestables
+clínicament, alteracions extremes de l'índex de massa corporal i en gestants.
+v
+Referència fórmula CKD_EPI. Ann Intern Med. 2009;150:604-12. Guia KDIGO (2012 i 2021).
+Referència Estadiatges. Guies UK Renal Association (2007), NICE (2008) i SIGN (2008).
+m
+Srm-Urat .
+­ 10.0 mg/dL 2.6 - 6.0
+b b
+Srm-Bilirubina . 0.72 mg/dL 0.30 - 1.20
+b b
+Srm-Bilirubina esterificada . 0.16 mg/dL 0.00 - 0.20
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara, Castellote Belles, Laura
+b b b
+----------------------------------------------------------------
+IONS
+b----------------
+b
+Srm-Ió sodi . 140.7 mmol/L 136.0 - 146.0
+b b
+Srm-Ió potassi . 3.72 mmol/L 3.50 - 5.10
+b b
+Srm-Fosfat . 4.4 mg/dL 2.5 - 4.5
+b b
+Srm-Calci . 8.9 mg/dL 8.8 - 10.6
+b b
+vSan-Ió calci (II) . 4.7 mg/dL 4.2 - 5.4
+b b
+Laboratoris Clínics Vall d'Hebron
+________________________________________________________________________________________________
+Pacient: BURGUES CANELA, MA BELIA Número: 111248782
+________________________________________________________________________________________________
+Pàgina 2/4
+Calci iònic-Sang venosa pH=7.40 (37ºC) . 4.8 mg/dL
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara, Martínez Casademont, Mariano
+b b b
+----------------------------------------------------------------
+GASOS EN SANG
+b----------------
+b
+.
+Gasometria venosa
+blanco
+vSan-Plasma; pH .
+­­ 7.48 7.33 - 7.43
+b b
+vSan-Diòxid de carboni (lliure); tensió . 38 mm Hg 38 - 50
+b b
+vSan-Oxigen; tensió .
+­ 51 mm Hg 30 - 40
+b b
+vSan-Hidrogencarbonat; c.subst.(actual) . 28.3 mmol/L 22 - 29
+b b
+vSan-Diòxid de carboni (total); c.subst . 29.5 mmol/L 23.2 - 30.2
+b b
+vSan-Excés de base(llocs enllaçants d'H+); c.subst. .
+­­ 4.5 mmol/L -2 - 2
+b b
+vSan-Hidrogencarbonat; c.subst.(estandar) . 28.3 mmol/L 26 - 32
+b b
+Hb(vSan)-Oxigen; fr.sat. .
+­­ 92.2 % 40 - 70
+b b
+b b b
+b Resultats revisats i validats per: Martínez Casademont, Mariano
+b b b
+----------------------------------------------------------------
+ENZIMS
+b----------------
+b
+Srm-Aspartat-aminotransferasa . 15 UI/L 10 - 35
+b b
+Srm-Alanina-aminotransferasa . 11 UI/L 7 - 35
+b b
+Srm-Fosfatasa alcalina . 93 UI/L 30 - 120
+b b
+Srm-Gamma-glutamiltransferasa . 24 UI/L 6 - 38
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara
+b b b
+----------------------------------------------------------------
+LIPIDS i LIPOPROTEÏNES
+b----------------
+b
+Srm-Colesterol . 203 mg/dL
+b b
+b concentració desitjable concentració elevada
+b b b
+Població pediàtrica < 170 mg/dL >= 200 mg/dL
+b b b
+Població adulta < 200 mg/dL >= 240 mg/dL
+b b b
+b b
+Laboratoris Clínics Vall d'Hebron
+________________________________________________________________________________________________
+
+________________________________________________________________________________________________
+Pàgina 3/4
+Srm-Triglicèrid . 140 mg/dL
+b b
+b b concentració desitjable concentració elevada
+Població pediàtrica b
+b b b
+2-9 anys
+10-17 anys
+< 75 mg/dL
+< 90 mg/dL
+>= 100 mg/dL
+>= 130 mg/dL
+b b b
+Població adulta < 150 mg/dL >= 200 mg/dL
+b b b
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara
+b b b
+----------------------------------------------------------------
+PROTEÏNES
+b----------------
+b
+Srm-Proteïna .
+¯ 5.2 g/dL 6.6 - 8.3
+b b
+Srm-Albúmina . 3.5 g/dL 3.5 - 5.2
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara
+b b b
+.
+MICROBIOLOGIA
+b
+-----------------------------------
+--------
+----------------------------------
+Mostra: Sang total
+b b
+blanco
+----------------------------------------------------------------
+ESTUDI VIROLÒGIC
+b----------------
+b
+.
+.
+Càrrega viral Citomegalovirus (PCR temps real) . Negatiu
+b b
+b b b
+b Resultats revisats i validats per: Esperalba Esquerra, Juliana
+b b b
+Incidències de mostra revisades i validades per: Facultatiu responsable de l'àrea preanalítica
+...
+Barcelona, dimecres, 10 / de novembre / 2021
+Laboratoris Clínics Vall d'Hebron
+________________________________________________________________________________________________
+
+________________________________________________________________________________________________
+Pàgina 4/4

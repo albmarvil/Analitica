@@ -62,12 +62,6 @@ Barcelona, dimarts, 9 / de novembre / 2021
 Laboratoris Clínics Vall d'Hebron
 ________________________________________________________________________________________________
 b
-Pacient: BURGUES CANELA, MA BELIA Petició: 111248287
-Nascut el: 09/03/1948 Sexe: F Sol·licitant: LOPEZ MARTINEZ,MARINA
-NHC: 14192178 Centre: HUVH GENERAL
-T.Sanitària: BUCA1480309001 Servei: NEFROLOGIA
-Núm Seg Soc: 250048433167 Data recepció: 08/11/21 10:55:45
-Numero Host: 0071086900 Data emisió: 09/11/21 00:10:36
-Data tancament: 08/11/21 15:05:38
+
 ________________________________________________________________________________________________
 Pàgina 1/1
