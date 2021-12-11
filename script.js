@@ -1,8 +1,50 @@
+// /// TODO rework data classes to work with maps, so we can have translations and default parameter values
+// //-section data
+//     //section class
+//     //section to string
+//     //section html
+//     //section comparisons
+//     //section loops
+// //-parameter data
+//     //parameter class
+//     //parameter to string
+//     //parameter html
+//     //parameter comparisons
+//     //parameter loops
+//     //parameter trims
+// const P = new Map();
+// P.set("ID", new ParamData("ID", "catalan", "español", false));
 
+// class ParamData
+// {
+//     constructor(ID, CAT, ES, SHOW)
+//     {
+//         this.ID = ID;
+//         this.CAT = CAT;
+//         this.ES = ES;
+//         this.SHOW = SHOW;
+//     }
+// }
+
+
+///ADD PARAMETERS
+///PROTEINOGRAMA
+///SECTION AND SUBSECTIONS
+//ONLY ONE SECTION (Original analisis)
+
+/////TODOEND
 
 var ALLOWED_SECTIONS = [
     "ESTUDI ELEMENTS FORMES".normalize(),
     "SUBSTRATS".normalize(),
+    "HEMOGRAMA".normalize(),
+    "HEMOSTÀSIA BÀSICA I D'URGÈNCIES".normalize(),
+    // "BIOQUIMICA".normalize(),
+    "IONS".normalize(),
+    "GASOS EN SANG".normalize(),
+    "ENZIMS".normalize(),
+    "LIPIDS i LIPOPROTEÏNES".normalize(),
+    "ESTUDI VIROLÒGIC".normalize(),
     "PROTEÏNES".normalize()
 ];
 
@@ -19,39 +61,101 @@ var ALLOWED_PARAMETERS = [
     "Uri-Proteïna orina recent".normalize(),
     "Uri-Proteïna / creatinina; quocient".normalize(),
     "Uri-Albúmina orina recent".normalize(),
-    "Uri-Albúmina / Creatinini orina recent".normalize()
+    "Uri-Albúmina / Creatinini orina recent".normalize(),
+    "Hematies".normalize(),
+    "Hemoglobina corpuscular mitja (HCM)".normalize(),
+    "Hemoglobina".normalize(),
+    "Hematòcrit".normalize(),
+    "Volum corpuscular mig (VCM)".normalize(),
+    "Concentració HGB Corpuscular mitja".normalize(),
+    "Ample Distribució Eritrocits (ADE)".normalize(),
+    "San-Eritroblastes, f".normalize(),
+    "San-Eritroblastes, c".normalize(),
+    "Leucòcits".normalize(),
+    "Neutròfils %".normalize(),
+    "Limfòcits %".normalize(),
+    "Monòcits %".normalize(),
+    "Eosinòfils %".normalize(),
+    "Basòfils %".normalize(),
+    "Neutròfils".normalize(),
+    "Limfòcits".normalize(),
+    "Monòcits".normalize(),
+    "Eosinòfils".normalize(),
+    "Basòfils".normalize(),
+    "Plaquetes".normalize(),
+    "Volum plaquetari mig".normalize(),
+    "Pla-Temps de Protrombina (ràtio)".normalize(),
+    "Pla-Temps de Protrombina (%)".normalize(),
+    "Pla-Temps de Protrombina (INR)".normalize(),
+    "Pla-Temps de Protrombina (s)".normalize(),
+    "Pla-TTPA (ràtio)".normalize(),
+    "Pla-TTPA (s)".normalize(),
+    "Pla-Fibrinogen derivat".normalize(),
+    "Srm-Glucosa".normalize(),
+    "Srm-Urea".normalize(),
+    "Srm-Creatinini".normalize(),
+    "Pac-Filtrat glomerular (estimació segons CKD-EPI)".normalize(),
+    "Srm-Urat".normalize(),
+    "Srm-Bilirubina esterificada".normalize(),
+    "Srm-Bilirubina".normalize(),
+    "Srm-Ió sodi".normalize(),
+    "Srm-Ió potassi".normalize(),
+    "Srm-Fosfatasa alcalina".normalize(),
+    "Srm-Fosfat".normalize(),
+    "Srm-Calci".normalize(),
+    "vSan-Ió calci (II)".normalize(),
+    "Calci iònic-Sang venosa pH=7.40 (37ºC)".normalize(),
+    "vSan-Plasma; pH".normalize(),
+    "vSan-Diòxid de carboni (lliure); tensió".normalize(),
+    "vSan-Oxigen; tensió".normalize(),
+    "vSan-Hidrogencarbonat; c.subst.(actual)".normalize(),
+    "vSan-Diòxid de carboni (total); c.subst".normalize(),
+    "vSan-Excés de base(llocs enllaçants d'H+); c.subst.".normalize(),
+    "vSan-Hidrogencarbonat; c.subst.(estandar)".normalize(),
+    "Hb(vSan)-Oxigen; fr.sat. .".normalize(),
+    "Srm-Aspartat-aminotransferasa".normalize(),
+    "Srm-Alanina-aminotransferasa".normalize(),
+    "Srm-Gamma-glutamiltransferasa".normalize(),
+    "Srm-Colesterol".normalize(),
+    "Srm-Triglicèrid".normalize(),
+    "Srm-Proteïna".normalize(),
+    "Srm-Albúmina".normalize(),
+    "Càrrega viral Citomegalovirus (PCR temps real)".normalize()
 ];
 
 var QUALITATIVE_PARAMETERS = [
     "Uri-Eritròcits dismòrfics".normalize(),
-    "Uri-Llevats".normalize()
+    "Uri-Llevats".normalize(),
+    "Càrrega viral Citomegalovirus (PCR temps real)".normalize()
 ];
 
-var ALLOWED_QUALITATEIVE_VALUES = [
-    "Negatiu".normalize(),  
-];
+// var SEPARATORS = [
+//     "\nb b b".normalize(),
+//     "\nb b".normalize(),
+//     "\nblanco".normalize(),
+//     "\nblanc".normalize(),
+//     "\nb".normalize(),
+//     "\n.".normalize(),
+//     "\n".normalize()
+// ];
 
-var SEPARATORS = [
-    "\nb b b".normalize(),
-    "\nb b".normalize(),
-    "\nblanco".normalize(),
-    "\nblanc".normalize(),
-    "\nb".normalize(),
-    "\n.".normalize(),
-    "\n".normalize()
-];
-
-var SECTION_SEPARATORS = [
-    "blanco".normalize()
-];
+// var SECTION_SEPARATORS = [
+//     "blanco".normalize()
+// ];
 
 var PARAMETER_SEPARATORS = [
     "blanc".normalize(),
     "b b".normalize()
+    // "\n".normalize()
 ];
 
 var PARAMETER_IGNORE = [
     "."
+];
+
+var PARAMETER_TRIM = [
+    " .",
+    "¯ "
 ];
 
 var EOF = [
@@ -64,7 +168,21 @@ var ALLOWED_PARAMETER_UNITS = [
     "bact/μL".normalize(),
     "mg/dL".normalize(),
     "mg/g".normalize(),
-    "mg/L".normalize()
+    "mg/L".normalize(),
+    "x10E12/L".normalize(),
+    "g/dL".normalize(),
+    "%".normalize(),
+    "fL".normalize(),
+    "pg".normalize(),
+    "x10E9/L".normalize(),
+    "10E9/L".normalize(),
+    "ràtio".normalize(),
+    "seg".normalize(),
+    "g/L".normalize(),
+    "ml/min/1,73 m2".normalize(),
+    "mmol/L".normalize(),
+    "mm Hg".normalize(),
+    "UI/L".normalize()
 ];
 
 
@@ -91,8 +209,8 @@ function process(startLine)
     for(var i = 0; i < splitted.length; ++i)
     {
         var line = splitted[i].normalize();
-        if(!isEndOfFile(line))
-        {
+        // if(!isEndOfFile(line))
+        // {
             if(isLineASection(line))
             {
                 if(currentSection==null)
@@ -115,16 +233,16 @@ function process(startLine)
 
                 currentSection.parameters.push(parameter);
             }
-        }
-        else
-        {
-            EOFProcessed = true;
-            processedSections.push(currentSection);
-        }
+        // }
+        // else
+        // {
+        //     EOFProcessed = true;
+        //     processedSections.push(currentSection);
+        // }
     }
 
-    if(!EOFProcessed)
-        processedSections.push(currentSection);
+    // if(!EOFProcessed)
+    processedSections.push(currentSection);
 
     PARSED_DATA = processedSections;
 
@@ -303,11 +421,20 @@ class Parameter
         for(var i = index; i < array.length; ++i)
         {
             var line = array[i];
-            if(!isLineAParameterSeparator(line))
+            var nextLine =  (i+1)<array.length ? array[i+1] : "";
+
+            var isParamSeparator = isLineAParameterSeparator(line);
+            var isNextParam = isLineAParameter(nextLine);
+            var isNextSection = isLineASection(nextLine);
+
+            if(!isParamSeparator)
             {
                 if(!PARAMETER_IGNORE.includes(line))
                     parameterLines.push(line);
                 lastIndex = i;
+
+                if(isNextParam || isNextSection)
+                    break;
             }
             else
             {
@@ -317,6 +444,15 @@ class Parameter
 
         //concat lines
         var result = concatStringArray(parameterLines);
+
+        ///remove undesired substrings
+
+        for(var i = 0; i < PARAMETER_TRIM.length; ++i)
+        {
+            var toRemove = PARAMETER_TRIM[i];
+            result = result.replace(toRemove, "");
+        }
+
 
         //extract name and remove it from processing string
         result = this.extractNameFromLine(result);
@@ -425,7 +561,7 @@ class Parameter
     getHTML()
     {   
         var checked = this.show ? "checked" : "";
-        return "<input type='checkbox' id='"+this.name+"' onchange='filterChange(this)' "+checked+"><label for='"+this.name+"'>"+this.name+"</label><br></br>";
+        return "<input type='checkbox' id='"+this.name+"' onchange='filterChange(this)' "+checked+"><label for='"+this.name+"'>"+this.name+"</label><br>";
     }
 
 }
