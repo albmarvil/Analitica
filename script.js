@@ -195,8 +195,7 @@ function process()
     for(var i = 0; i < splitted.length; ++i)
     {
         var line = splitted[i].normalize();
-        // if(!isEndOfFile(line))
-        // {
+
             if(isLineASection(line))
             {
                 if(currentSection==null)
@@ -219,15 +218,10 @@ function process()
 
                 currentSection.parameters.push(parameter);
             }
-        // }
-        // else
-        // {
-        //     EOFProcessed = true;
-        //     processedSections.push(currentSection);
-        // }
+
     }
 
-    // if(!EOFProcessed)
+
     processedSections.push(currentSection);
 
     PARSED_DATA = processedSections;
@@ -242,7 +236,7 @@ function process()
 
 function filterChange(object)
 {
-    // console.log(object.id + " /// " + object.checked);
+
     loop:
     for(var i = 0; i < PARSED_DATA.length; ++i)
     {
@@ -254,17 +248,15 @@ function filterChange(object)
             
             if(param.name === object.id)
             {
-                // console.log("Found");
                 param.show = object.checked;
                 break loop;
             }
         }
     }
     
-    // var value = object.checked;
-    // object.checked = !value;
+
     BuildOutput();
-    // BuildFilterSection();
+
 }
 
 
@@ -342,15 +334,6 @@ function isLineASection(line)
 
 function isLineAParameter(line)
 {
-    // var normLine = line.normalize();
-    // if(ALLOWED_PARAMETERS.includes(normLine))
-    // {
-    //     return true;
-    // }
-    // else
-    // {
-    //     return arrayElementIncludedInString(ALLOWED_PARAMETERS, normLine);
-    // }
 
     var normLine = line.normalize();
 
