@@ -1,28 +1,24 @@
-// import 'data.js'
 
-// /// TODO rework data classes to work with maps, so we can have translations and default parameter values
-// //-section data
-//     //section class
-//     //section to string
-//     //section html
-//     //section comparisons
-//     //section loops
-// //-parameter data
-//     //parameter class
-//     //parameter to string
-//     //parameter html
-//     //parameter comparisons
-//     //parameter loops
-//     //parameter trims
-
+///// TODO 
 
 ///ADD PARAMETERS
+
+///ADD TRANSLATION SUPPORT
+
+///MOVE DATA TO STANDALONE FILE
+
 ///PROTEINOGRAMA
+
 ///SECTION AND SUBSECTIONS
+
 //ONLY ONE SECTION (Original analisis)
 
 /////TODOEND
 
+
+
+
+// import 'data.js'
 
 class ParamData 
 {
