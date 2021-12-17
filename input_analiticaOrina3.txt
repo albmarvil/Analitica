@@ -1,0 +1,89 @@
+.
+BIOQUIMICA
+b
+----------------------------------------------------------------
+ANALISI D'ORINA
+b----------------
+b
+.
+ESTUDI ELEMENTS FORMES
+blanco
+blanc
+Unitats Inter.Ref Resultat qualitatiu
+blanc
+Uri-Leucòcits 2278.3 cel/μL 0 - 20 Piuria
+blanc
+Uri-Eritròcits 248 cel/μL 0 - 15 30 - 45
+blanc
+Uri-Eritròcits dismòrfics Isomòrfics
+blanc
+Uri-Cèl·lules epitelials 0.9 cel/μL
+blanc
+Uri-Cilindres hialins 0 cil/μL 0 - 5
+blanc
+Uri-Bacteris 200 bact/μL 0 - 100 Aillats
+blanc
+Uri-Llevats Negatiu
+blanc
+.
+SUBSTRATS
+blanco
+Pac-Orina; osmolalitat .
+321 mOsm/Kg 300 - 900
+b b
+Uri-Creatinini orina recent .
+39 mg/dL
+b b
+.
+IONS
+blanco
+Uri-Ió sodi orina recent .
+89.7 mEq/L
+b b
+Uri-Sodi / creatinina; quocient .
+­ 25.8 mol / mol crea 3.2 - 25.8
+b b
+Uri-Ió potassi orina recent .
+20.1 mEq/L
+b b
+Uri-Potassi / creatinina; quocient .
+5.8 mol / mol crea 1.3 - 8.4
+b b
+Uri-Clorur orina recent .
+94.2 mEq/L
+b b
+Uri-Clorur / creatinina; quocient .
+­ 27.1 mol / mol crea 2.3 - 25.3
+b b
+.
+PROTEÏNES
+blanco
+Uri-Proteïna orina recent .
+222 mg/dL
+b b
+
+Certificació UNE-EN ISO 9001 (EC-1792/05)
+Pàgina 1/2
+Uri-Proteïna / creatinina; quocient .
+­­ 5648.9 mg/g crea 0 - 200
+b b
+Uri-Albúmina orina recent .
+­­ 1008.8 mg/L 0 - 20
+b b
+Uri-Albúmina / Creatinini orina recent .
+­­ 2567 mg/g crea 0 - 30
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara, Felipe Fernández, Maria Pilar
+b b b
+.
+PROVES DERIVADES
+b
+-------------------------------------------
+REFERENCE LABORATORY
+Proves realitzades i resultats validats a Reference Laboratory
+b b
+Mioglobina orina RECENT .
+186.2
+Fins a 25,0 mcg/L
+b b

@@ -134,10 +134,7 @@ Srm-Calci . 8.9 mg/dL 8.8 - 10.6
 b b
 vSan-Ió calci (II) . 4.7 mg/dL 4.2 - 5.4
 b b
-Laboratoris Clínics Vall d'Hebron
-________________________________________________________________________________________________
-Pacient: BURGUES CANELA, MA BELIA Número: 111248782
-________________________________________________________________________________________________
+_________________________________________________________________________________
 Pàgina 2/4
 Calci iònic-Sang venosa pH=7.40 (37ºC) . 4.8 mg/dL
 b b
@@ -255,13 +252,3 @@ b
 Càrrega viral Citomegalovirus (PCR temps real) . Negatiu
 b b
 b b b
-b Resultats revisats i validats per: Esperalba Esquerra, Juliana
-b b b
-Incidències de mostra revisades i validades per: Facultatiu responsable de l'àrea preanalítica
-...
-Barcelona, dimecres, 10 / de novembre / 2021
-Laboratoris Clínics Vall d'Hebron
-________________________________________________________________________________________________
-
-________________________________________________________________________________________________
-Pàgina 4/4

@@ -1,0 +1,51 @@
+.
+BIOQUIMICA
+b
+----------------------------------------------------------------
+ANALISI D'ORINA
+b----------------
+b
+ESTUDI ELEMENTS FORMES
+blanc
+Unitats Inter.Ref Resultat qualitatiu
+blanc
+Uri-Leucòcits 487.5 cel/μL 0 - 20 60 - 80
+blanc
+Uri-Eritròcits 71.3 cel/μL 0 - 15 6 - 15
+blanc
+Uri-Cèl·lules epitelials 1.8 cel/μL
+blanc
+Uri-Cilindres hialins 0 cil/μL 0 - 5
+blanc
+Uri-Bacteris 277 bact/μL 0 - 100 Aillats
+blanc
+Uri-Llevats Negatiu
+blanc
+Comentari sediment: No s'observen eosinòfils
+al microscopi òptic
+blanc
+b b b
+b Resultats revisats i validats per: Barquin Del Pino, Raquel, Ruiz Altarejos, Joaquín
+b b b
+.
+MICROBIOLOGIA
+b
+-----------------------------------
+--------
+----------------------------------
+Mostra: Orina micció espontània raig mig
+b b
+blanco
+----------------------------------------------------------------
+ESTUDI BACTERIOLÒGIC
+b----------------
+b
+. . .
+Urocultiu quantitatiu Negatiu
+Finalizat: Sí
+. . .
+.
+. . .
+b
+.
+b b b

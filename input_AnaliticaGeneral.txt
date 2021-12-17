@@ -1,0 +1,269 @@
+.
+HEMATOLOGIA
+b
+----------------------------------------------------------------
+HEMOGRAMA
+b----------------
+b
+Hematies .
+¯ 4.02 x10E12/L 4.50 - 5.90
+b b
+Hemoglobina
+.
+¯ 11.5 g/dL 13.0 - 17.0
+Hematòcrit
+.
+¯ 35.2 % 39.0 - 51.0
+Volum corpuscular mig (VCM)
+. 87.6 fL 80.0 - 98.0
+Hemoglobina corpuscular mitja (HCM)
+. 28.6 pg 27.0 - 33.5
+Concentració HGB Corpuscular mitja
+. 32.70 g/dL 31.00 - 36.00
+Ample Distribució Eritrocits (ADE)
+. 17.8 % 11.0 - 15.0
+b b
+San-Eritroblastes, f
+. 0.4 % 0.0 - 2.0
+San-Eritroblastes, c
+. 0.05 10E9/L
+b b
+Leucòcits .
+­ 12.12 x10E9/L 4.00 - 11.00
+b b
+Neutròfils %
+. 72.5 % 40.0 - 80.0
+Limfòcits %
+.
+¯ 18.9 % 20.0 - 50.0
+Monòcits %
+. 6.4 % 2.0 - 11.0
+Eosinòfils %
+. 1.2 % 0.0 - 5.0
+Basòfils %
+. 1.0 % 0.0 - 2.0
+b b
+Neutròfils
+.
+­ 8.8 x10E9/L 2.0 - 7.0
+Limfòcits
+. 2.3 x10E9/L 1.2 - 3.5
+Monòcits
+. 0.8 x10E9/L 0.1 - 1.0
+Eosinòfils
+. 0.2 x10E9/L 0.0 - 0.5
+Basòfils
+. 0.1 x10E9/L 0.0 - 0.2
+b b
+Plaquetes .
+¯ 105 x10E9/L 140 - 400
+b b
+Volum plaquetari mig
+. 14.0 fL 9.5 - 12.0
+b b b
+b Resultats revisats i validats per: Marin Niebla, Ana
+b b b
+.
+BIOQUIMICA
+b
+----------------------------------------------------------------
+SUBSTRATS
+b----------------
+b
+Srm-Glucosa
+. 102 mg/dL 74 - 110
+b b
+Srm-Urea
+.
+­­ 174 mg/dL 17 - 43
+b b
+Srm-Creatinini
+.
+­­ 6.52 mg/dL 0.67 - 1.17
+b b
+Pac-Filtrat glomerular (estimació segons CKD-EPI)
+. 7 ml/min/1,73 m2
+
+Certificació UNE-EN ISO 9001 (EC-1792/05)
+Pàgina 1/4
+b m
+En persones de raça negra s'ha de multiplicar el resultat pel factor: 1,159
+n
+El valor estimat de FG en majors de 18 anys (si persisteix durant 3 mesos o més) és indicador de:
+m
+Estadi F. Glomerular
+(mL/min/1,73m2)
+1 >=90 Filtrat Glomerular normal o augmentat
+2 60-89 Lesió renal amb disminució lleu del filtrat glomerular
+3a 45-59 Disminució lleugera-moderada del filtrat glomerular
+3b 30-44 Disminució moderada del filtrat glomerular
+4 15-29 Disminució severa del filtrat glomerular
+5 <15 Fallida renal o diàlisi
+m
+Es recomana mesurar l'aclariment de creatinina en orina de 24H en pacients inestables
+clínicament, alteracions extremes de l'índex de massa corporal i en gestants.
+v
+Referència fórmula CKD_EPI. Ann Intern Med. 2009;150:604-12. Guia KDIGO (2012 i 2021).
+Referència Estadiatges. Guies UK Renal Association (2007), NICE (2008) i SIGN (2008).
+m
+Srm-Urat
+.
+­ 7.6 mg/dL 3.5 - 7.2
+b b
+Srm-Bilirubina
+. 0.54 mg/dL 0.30 - 1.20
+b b
+Srm-Bilirubina esterificada
+. 0.18 mg/dL 0.00 - 0.20
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara, Diaz Troyano, Noelia
+b b b
+----------------------------------------------------------------
+IONS
+b----------------
+b
+Srm-Ió sodi
+.
+­­ 150.0 mmol/L 136.0 - 146.0
+b b
+Srm-Ió potassi
+. 3.93 mmol/L 3.50 - 5.10
+b b
+Srm-Fosfat
+.
+­ 5.6 mg/dL 2.5 - 4.5
+b b
+Srm-Calci
+.
+¯ 8.3 mg/dL 8.8 - 10.6
+b b
+vSan-Ió calci (II)
+. 4.6 mg/dL 4.2 - 5.4
+b b
+Calci iònic-Sang venosa pH=7.40 (37ºC)
+. 4.7 mg/dL
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara, Diaz Troyano, Noelia, Martínez Casademont, Mariano
+b b b
+----------------------------------------------------------------
+GASOS EN SANG
+b----------------
+b
+.
+Gasometria venosa
+blanco
+vSan-Plasma; pH
+. 7.41 7.33 - 7.43
+b b
+vSan-Diòxid de carboni (lliure); tensió
+.
+¯ 31 mm Hg 38 - 50
+b b
+vSan-Oxigen; tensió
+.
+­ 50 mm Hg 30 - 40
+b b
+__________________________________________________________________________________________________________________________________________
+Pàgina 2/4
+vSan-Hidrogencarbonat; c.subst.(actual)
+.
+¯¯ 19.6 mmol/L 22 - 29
+b b
+vSan-Diòxid de carboni (total); c.subst
+.
+¯ 20.6 mmol/L 23.2 - 30.2
+b b
+vSan-Excés de base(llocs enllaçants d'H+); c.subst.
+.
+¯¯ -4.2 mmol/L -2 - 2
+b b
+vSan-Hidrogencarbonat; c.subst.(estandar)
+.
+¯ 21.4 mmol/L 26 - 32
+b b
+Hb(vSan)-Oxigen; fr.sat.
+.
+­ 85.6 % 40 - 70
+b b
+b b b
+b Resultats revisats i validats per: Martínez Casademont, Mariano
+b b b
+----------------------------------------------------------------
+ENZIMS
+b----------------
+b
+Srm-Aspartat-aminotransferasa
+. 31 UI/L 12 - 50
+b b
+Srm-Alanina-aminotransferasa
+. 21 UI/L 8 - 50
+b b
+Srm-Fosfatasa alcalina
+.
+­ 133 UI/L 30 - 120
+b b
+Srm-Gamma-glutamiltransferasa
+.
+­ 129 UI/L 9 - 55
+b b
+Srm-Creatina-cinasa
+.
+¯ 52 UI/L 55 - 171
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara, Diaz Troyano, Noelia
+b b b
+----------------------------------------------------------------
+LIPIDS i LIPOPROTEÏNES
+b----------------
+b
+Srm-Colesterol
+. 131 mg/dL
+b b
+b concentració desitjable concentració elevada
+b b b
+Població pediàtrica < 170 mg/dL >= 200 mg/dL
+b b b
+Població adulta < 200 mg/dL >= 240 mg/dL
+b b b
+b b
+Srm-Triglicèrid
+. 190 mg/dL
+b b
+b b concentració desitjable concentració elevada
+Població pediàtrica b
+b b b
+2-9 anys
+10-17 anys
+< 75 mg/dL
+< 90 mg/dL
+>= 100 mg/dL
+>= 130 mg/dL
+b b b
+Població adulta < 150 mg/dL >= 200 mg/dL
+b b b
+b b
+b b b
+b Resultats revisats i validats per: Ramírez Serra, Clara
+b b b
+----------------------------------------------------------------
+PROTEÏNES
+b----------------
+b
+Srm-Proteïna
+.
+¯ 5.4 g/dL 6.6 - 8.3
+b b
+______________________________________________________________________________________________________________________________________________
+Pàgina 3/4
+Srm-Albúmina
+.
+¯ 2.7 g/dL 3.5 - 5.2
+b b
+Srm-Proteïna C reactiva
+.
+­­ 11.95 mg/dL 0.03 - 0.50
+b b
+b b b
